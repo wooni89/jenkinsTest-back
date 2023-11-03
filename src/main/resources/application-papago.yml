@@ -1,3 +1,0 @@
-papago:
-  text-request-url: https://naveropenapi.apigw.ntruss.com/nmt/v1/translation
-  html-request-url: https://naveropenapi.apigw.ntruss.com/web-trans/v1/translate
