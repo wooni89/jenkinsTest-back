@@ -73,14 +73,14 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // 사전에 약속된 출처를 명시
-        config.addAllowedOrigin("http://223.130.132.158:3000");
+        config.addAllowedOrigin("http://101.79.9.33:3000");
         //config.addAllowedOrigin("http://localhost:3001");
-        config.addAllowedOrigin("http://223.130.132.158:8888");
-        config.addAllowedOrigin("https://223.130.132.158:8888");
-        config.addAllowedOrigin("http://223.130.132.158/");
-        config.addAllowedOrigin("https://223.130.132.158/");
-        config.addAllowedOrigin("http://223.130.132.158:3000");
-        config.addAllowedOrigin("https://223.130.132.158:3000");
+        config.addAllowedOrigin("http://101.79.9.33:8888");
+        config.addAllowedOrigin("https://101.79.9.33:8888");
+        config.addAllowedOrigin("http://101.79.9.33/");
+        config.addAllowedOrigin("https://101.79.9.33/");
+        config.addAllowedOrigin("http://101.79.9.33:3000");
+        config.addAllowedOrigin("https://101.79.9.33:3000");
         //채팅 테스트용 origin
         // config.addAllowedOrigin("http://localhost:8080");
 
